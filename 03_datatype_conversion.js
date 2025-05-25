@@ -16,7 +16,7 @@ let valueInNumnber = Number(score)
 let isLoggedin = 1
 
 let booleanInput = Boolean(isLoggedin)
-console.log(booleanInput);
+// console.log(booleanInput);
 
 // numer => boolean conversion can also be done
 /* 
@@ -25,3 +25,18 @@ console.log(booleanInput);
 "" => false
 "wahid" => true 
 */
+
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
+
+let name = "wahid"
+console.log("My name is: "+name);
