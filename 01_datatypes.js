@@ -1,0 +1,1 @@
+"use strict" //this will treat the whole code as a newer version of js 
