@@ -12,7 +12,7 @@ const max = 200
 
 console.log(Math.floor(Math.random()*(max - min ) + min))
 
-
+//Important formula (just like we used random.randint() in python)
 
 
 
