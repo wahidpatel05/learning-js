@@ -16,9 +16,9 @@ document.getElementById("highlightFirstCity").addEventListener("click", function
 document.getElementById("changeOrder").addEventListener("click", function(){
     let order = document.getElementById("coffeeType");
     order.textContent = "Espresso"
-    order.style.borderStyle = "dotted";
-    // order.style.borderRadius = "30px";
-    order.style.color = "purple";
+    // order.style.borderStyle = "dotted";
+    // // order.style.borderRadius = "30px";
+    // order.style.color = "purple";
 
 })
 
@@ -39,4 +39,9 @@ addEventListener("click", function(){
     let lastElement = taskList.lastChild
 
     lastElement.remove()
+})
+
+document.getElementById("removeFirstTask").addEventListener('click', function() {
+
+    
 })
