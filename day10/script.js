@@ -19,3 +19,7 @@ document.getElementById("feedbackForm").addEventListener('submit',function(event
     document.getElementById("feedbackInput").value = ""
 })
 
+document.getElementById("toggleHighlight").addEventListener("click",function(){
+    let des = document.getElementById("descriptionText");
+    des.classList.toggle("highlight")
+})
